@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Checkout'){
             steps{
-                git branch: 'main', url: ''
+                git branch: 'main', url: 'https://github.com/ikoyi2022/helloworld_jan_22.git'
             }
         }
         stage('Code Build') {
